@@ -18,6 +18,8 @@ public class Kategori {
         System.out.println("\nKategori: " + nama);
         for (Buku buku1 : buku) {
             buku1.tampilkan();
+            System.out.println("Jumlah kata sinopsis: " + buku1.hitungJumlahKata());
+            System.out.println();
         }
     }
 }
