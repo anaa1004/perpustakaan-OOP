@@ -29,6 +29,19 @@ public class Main {
                         new Penulis("David Y."))
         ));
 
+        teknologi.addBuku(new Buku(
+                "The Pragmatic Programmer",
+                1999,
+                List.of(new Penulis("Andrew Hunt"),
+                        new Penulis("David Thomas"))
+        ));
+
+        teknologi.addBuku(new Buku(
+                "Clean Code",
+                2008,
+                List.of(new Penulis("Robert Martin"))
+        ));
+
         perpus.addKategori(teknologi);
 
 
@@ -51,6 +64,18 @@ public class Main {
                 "Pemikiran Kiri Kanan",
                 2017,
                 List.of(new Penulis("Mawar Melati"))
+        ));
+
+        filsafat.addBuku(new Buku(
+                "Republic",
+                1990,
+                List.of(new Penulis("Plato"))
+        ));
+
+        filsafat.addBuku(new Buku(
+                "Meditations",
+                2000,
+                List.of(new Penulis("Marcus Aurelius"))
         ));
 
         perpus.addKategori(filsafat);
@@ -77,6 +102,18 @@ public class Main {
                 List.of(new Penulis("Dewi Anata"))
         ));
 
+        sejarah.addBuku(new Buku(
+                "Guns, Germs, and Steel",
+                1997,
+                List.of(new Penulis("Jared Diamond"))
+        ));
+
+        sejarah.addBuku(new Buku(
+                "The Silk Roads",
+                2015,
+                List.of(new Penulis("Peter Frankopan"))
+        ));
+
         perpus.addKategori(sejarah);
 
         // ================= AGAMA =================
@@ -98,6 +135,18 @@ public class Main {
                 "Spiritualitas",
                 2012,
                 List.of(new Penulis("Ainun Najib"))
+        ));
+
+        agama.addBuku(new Buku(
+                "The Problem of Pain",
+                1940,
+                List.of(new Penulis("C. S. Lewis"))
+        ));
+
+        agama.addBuku(new Buku(
+                "The Purpose Driven Life",
+                2002,
+                List.of(new Penulis("Rick Warren"))
         ));
 
         perpus.addKategori(agama);
@@ -124,6 +173,12 @@ public class Main {
                 List.of(new Penulis("Daniel Goleman"))
         ));
 
+        agama.addBuku(new Buku(
+                "The Purpose Driven Life",
+                2002,
+                List.of(new Penulis("Rick Warren"))
+        ));
+
         perpus.addKategori(psikologi);
 
 
@@ -148,6 +203,18 @@ public class Main {
                 List.of(new Penulis("Alan Ryan"))
         ));
 
+        politik.addBuku(new Buku(
+                "Democracy in America",
+                1835,
+                List.of(new Penulis("Alexis de Tocqueville"))
+        ));
+
+        politik.addBuku(new Buku(
+                "Political Order and Political Decay",
+                2014,
+                List.of(new Penulis("Francis Fukuyama"))
+        ));
+
         perpus.addKategori(politik);
 
 
@@ -170,6 +237,18 @@ public class Main {
                 "Seporsi Mie Ayam Sebelum Laprak",
                 2024,
                 List.of(new Penulis("Ziggy Zagga"))
+        ));
+
+        fiksi.addBuku(new Buku(
+                "Harry Potter and the Philosopher's Stone",
+                1997,
+                List.of(new Penulis("J.K. Rowling"))
+        ));
+
+        fiksi.addBuku(new Buku(
+                "Dune",
+                1965,
+                List.of(new Penulis("Frank Herbert"))
         ));
 
         perpus.addKategori(fiksi);
