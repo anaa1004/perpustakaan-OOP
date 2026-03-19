@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -331,5 +332,21 @@ public class Main {
         System.out.println("\n===== HASIL COPY BUKU =====");
         bukuCopy1.tampilkan();
         bukuCopy2.tampilkan();
+
+        // Baca dan Simpan File
+        // simpan dari object
+        buku1.simpanFile("data.txt");
+        // baca ke object baru
+        Buku bukuFile = new Buku("", 0, "", new ArrayList<>());
+        bukuFile.bacaFile("data.txt");
+        // tampilkan
+        System.out.println("\n===== DATA DARI FILE =====");
+        bukuFile.tampilkan();
+
+
+        // ================= ROYALTI =================
+        System.out.println("\n===== HITUNG ROYALTI =====");
+        System.out.println("Royalti 10%: " + buku1.hitungRoyalti(100000));
+        System.out.println("Royalti 20%: " + buku1.hitungRoyalti(100000, 20));
     }
 }

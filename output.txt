@@ -1,0 +1,1 @@
+Algoritma Dasar;2019;Buku ini berisi tentag penjelasan algoritma dasar yang dibutuhkan untuk orang-orang yang ingin belajar tentang algoritma.;-
